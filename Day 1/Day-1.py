@@ -40,7 +40,7 @@ for s in list_per_elf:
     total_per_elf = 0
     for r in s:
         total_per_elf += int(r)
-        calories_per_elf.append(total_per_elf)
+    calories_per_elf.append(total_per_elf)
 
 print(calories_per_elf)
 
