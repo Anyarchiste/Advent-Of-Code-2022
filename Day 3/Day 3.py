@@ -27,10 +27,12 @@ def set_priorities():
 
 
 def is_in_both_halves(half1_def, half2_def, doubled_items_def):
+    shit = ""
     for x in half1_def:
         if x in half2_def:
-            if x not in doubled_items_def:
+            if x not in shit:
                 doubled_items_def.append(x)
+                shit += f"{x}"
 
 
 def get_doubled_items(data_def):
