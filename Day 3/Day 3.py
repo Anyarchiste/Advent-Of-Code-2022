@@ -46,7 +46,6 @@ def get_sum(prio_def, items_def):
     sum_def = 0
     for x in items_def:
         sum_def += prio_def[x]
-        print(prio_def[x])
     return sum_def
 
 
@@ -56,6 +55,4 @@ priorities = set_priorities()
 doubled_items = get_doubled_items(data)
 sum_of_priorities = get_sum(priorities, doubled_items)
 
-print(priorities)
-print(doubled_items)
 print(sum_of_priorities)
