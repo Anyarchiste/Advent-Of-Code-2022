@@ -1,6 +1,9 @@
 import string
 
+# Launches Challenge 1 if False, challenge 2 if True
+challenge_2 = True
 
+# Challenge 1
 def get_data():
     data_def = []
     with open("puzzle_input.txt", "r") as file:
@@ -54,7 +57,50 @@ def get_sum(prio_def, items_def):
 raw_data = get_data()
 data = treat_data(raw_data)
 priorities = set_priorities()
-doubled_items = get_doubled_items(data)
-sum_of_priorities = get_sum(priorities, doubled_items)
+if not challenge_2:
+    doubled_items = get_doubled_items(data)
+    sum_of_priorities = get_sum(priorities, doubled_items)
 
-print(sum_of_priorities)
+    print(sum_of_priorities)
+
+
+# Challenge 2
+def get_common_item(data_def, groups_number):
+    common_item_def = []
+    f = len(data_def)
+    while f > 0:
+        m = 0
+        v = 0
+        for x in data_def[m][v]:
+            b = 0
+            m += 1
+            if x in data_def[b][1] and x in data_def[b][2]:
+                common_item_def.append(x)
+                b += 1
+                v += 1
+                print(b)
+        print(m)
+        f -= 1
+    return common_item_def
+
+
+def arrange_data(data_def, groups_number):
+    arranged_data = []
+    c = 3
+    for v in range(groups_number):
+        list_ception = []
+        for y in range(c):
+            list_ception.append(data_def[y])
+        arranged_data.append(list_ception)
+        del data_def[:c]
+
+    return arranged_data
+
+
+if challenge_2:
+    number_of_groups = 2
+    data_cha_2 = arrange_data(data, number_of_groups)
+    print(data_cha_2)
+    common_item = get_common_item(data_cha_2, number_of_groups)
+
+    print(common_item)
