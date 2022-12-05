@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d42c3824-99d5-42d3-95a3-994d49fa4afa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 4/Day 4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 4/Puzzle Input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 3/Day 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/Day 3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 3/puzzle_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/puzzle_input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Day 4">
+  <component name="RunManager" selected="Python.Day 3">
     <configuration name="Day 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Advent-Of-Code-2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Day 4" />
         <item itemvalue="Python.Day 3" />
+        <item itemvalue="Python.Day 4" />
         <item itemvalue="Python.jshdvf" />
         <item itemvalue="Python.Day-2" />
         <item itemvalue="Python.Day-1" />

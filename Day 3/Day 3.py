@@ -69,31 +69,35 @@ def get_common_item(data_def, groups_number):
     common_item_def = []
     c = 0
     v = 0
-    while groups_number > v:
+    data_def_2 = []
+    for x in data_def:
+        data_def_2.append(x)
+    print(data_def_2)
+    while v <= groups_number:
         dump = []
-        for x in data_def[c]:
-            if x in data_def[c + 1] and x in data_def[c + 2] and x not in dump:
+        for x in data_def_2[c]:
+            if x in data_def_2[c + 1] and x in data_def_2[c + 2] and x not in dump:
                 common_item_def.append(x)
                 dump.append(x)
+                del data_def_2[len(data_def_2) - 3:]
                 print(dump)
-        c += 3
         v += 1
     return common_item_def
 
 
 def arrange_data(data_def, groups_number):
     arranged_data = []
-    c = 3
+    t = 2
     for v in range(groups_number):
-        for y in range(c):
+        for y in range(t):
             arranged_data.append(data_def[y])
-        del data_def[:c]
+        del data_def[:t]
 
     return arranged_data
 
 
 if challenge_2:
-    number_of_groups = 2
+    number_of_groups = 3
     data_cha_2 = arrange_data(data, number_of_groups)
     print(data_cha_2)
     common_item = get_common_item(data_cha_2, number_of_groups)
