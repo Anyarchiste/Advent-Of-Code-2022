@@ -3,6 +3,7 @@ import string
 # Launches Challenge 1 if False, challenge 2 if True
 challenge_2 = True
 
+
 # Challenge 1
 def get_data():
     data_def = []
@@ -67,21 +68,18 @@ if not challenge_2:
 # Challenge 2
 def get_common_item(data_def, groups_number):
     common_item_def = []
-    c = 0
-    v = 0
     data_def_2 = []
     for x in data_def:
         data_def_2.append(x)
     print(data_def_2)
-    while v <= groups_number:
+    for i in range(groups_number):
         dump = []
-        for x in data_def_2[c]:
-            if x in data_def_2[c + 1] and x in data_def_2[c + 2] and x not in dump:
+        for x in data_def_2[0]:
+            if x in data_def_2[1] and x in data_def_2[2] and x not in dump:
                 common_item_def.append(x)
                 dump.append(x)
                 del data_def_2[len(data_def_2) - 3:]
                 print(dump)
-        v += 1
     return common_item_def
 
 
