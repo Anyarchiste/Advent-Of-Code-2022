@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d42c3824-99d5-42d3-95a3-994d49fa4afa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day 6/Day 6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 6/puzzle_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 5/example_crates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 5/example_moves.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 5/Day 5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 5/Day 5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/prive/Documents/Bk-Up/Codage/TERF&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/prive/Documents/Bk-Up/GitHub/Advent-Of-Code-2022&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -49,7 +50,7 @@
       <recent name="C:\Users\prive\Documents\Bk-Up\GitHub\Advent-Of-Code-2022\Day 5\Puzzle_input" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Day 6">
+  <component name="RunManager" selected="Python.Day 5">
     <configuration name="Day 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Advent-Of-Code-2022" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,8 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Day 6" />
         <item itemvalue="Python.Day 5" />
+        <item itemvalue="Python.Day 6" />
         <item itemvalue="Python.Day 3" />
         <item itemvalue="Python.Day 4" />
         <item itemvalue="Python.jshdvf" />
